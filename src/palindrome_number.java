@@ -1,6 +1,6 @@
 public class palindrome_number {
 
-    public static Boolean palindromeNumber(int x) {
+    public Boolean palindromeNumber(int x) {
         String number = String.valueOf(x);
         StringBuilder strB = new StringBuilder();
         strB.append(number);
@@ -13,11 +13,5 @@ public class palindrome_number {
             return true;
         }
         return false;
-    }
-
-
-    public static void main(String[] args) {
-        System.out.println( palindromeNumber(121));
-
     }
 }
